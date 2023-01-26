@@ -61,10 +61,11 @@ function generateMarkdown(data) {
 
 
   ## Questions
-  <!-- adding user GitHib user name from user entered input data -->
-  ${data.githubUserName}
+  <!-- adding user GitHub user name from user entered input data -->
+  Follow [THIS LINK](https://github.com/${data.githubUserName}) for my GitHub profile.
+  
   <!-- adding user email from user entered input data -->
-  ${data.userEmail}
+  Please feel free to reach me at my email ${data.userEmail}!
 
   `;
   // function call to write to the file 
