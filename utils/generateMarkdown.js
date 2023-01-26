@@ -8,7 +8,7 @@ function generateMarkdown(data) {
   # ${data.projectTitle}
 
   <!-- adding license badge from user selected input data near the top of the README -->
-  <!-- condition to check for the project license to display the license badge, if not license, then return an empty string -->
+  <!-- condition to check for the project license to display the license badge, if not license, no licence badge shown -->
   ${data.projectLicense == "None" ? "" : `![License Badge](https://img.shields.io/badge/License-${data.projectLicense}-blue)`}
 
   ## Description
@@ -40,7 +40,9 @@ function generateMarkdown(data) {
 
   ## License
   <!-- adding which license the application is covered under from user entered input data -->
-  Application covered under the ${data.projectLicense} license.
+  <!-- condition to check for the project license to display the license coverage, if not license, then project no coveraged under any license -->
+  ${data.projectLicense == "None" ? "Application covered under NO license" : `Application covered under the ${data.projectLicense} license.`}
+  
   
   ## Contributing
   <!-- adding project contributions from user entered input data -->
