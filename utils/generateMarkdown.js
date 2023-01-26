@@ -69,7 +69,7 @@ function generateMarkdown(data) {
 
   `;
   // function call to write to the file 
-  fs.writeFile("./README2.md", readme, (err) => {
+  fs.writeFile("./README_generated.md", readme, (err) => {
     if (err) return console.error(err);
     console.log("Success!");
 });
