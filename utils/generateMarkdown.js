@@ -30,11 +30,16 @@ function generateMarkdown(data) {
   <!-- adding project usage from user entered input data -->
   ${data.projectUsage}
   
-  ![alt text](assets/images/screenshot.png)
+  App Screen Shots
+  [Hemlock Fitness Home Page](.utils/public/images/readme/hemlock-home.png)
+  [Hemlock Fitness Log In Page](.utils//public/images/Web%20capture_23-12-2022_15414_localhost.jpeg)
+  [Hemlock Fitness User Dashboard](.utils//public/images/readme/hemlock-user-dashboard.png)
+  [Hemlock Fitness User Schedule](.utils//public/images/readme/hemlock-my-schedule.png)
+
 
   ## License
   <!-- adding which license the application is covered under from user entered input data -->
-  Application covered under ${data.projectLicense} [license](https://opensource.org/licenses/${data.projectLicense})
+  Application covered under the ${data.projectLicense} license.
   
   ## Contributing
   <!-- adding project contributions from user entered input data -->
