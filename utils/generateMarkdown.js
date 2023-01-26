@@ -30,8 +30,6 @@ function generateMarkdown(data) {
   <!-- adding project usage from user entered input data -->
   ${data.projectUsage}
   
-  Provide instructions and examples for use. Include screenshots as needed.
-  
   ![alt text](assets/images/screenshot.png)
 
   ## License
