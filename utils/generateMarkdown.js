@@ -16,11 +16,13 @@ function generateMarkdown(data) {
   ${data.projectDescription}
 
   ## Table of Contents
-         
+  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   <!-- adding project installation instructions from user entered input data -->
@@ -31,11 +33,10 @@ function generateMarkdown(data) {
   ${data.projectUsage}
   
   App Screen Shots
-  [Hemlock Fitness Home Page](.utils/public/images/readme/hemlock-home.png)
-  [Hemlock Fitness Log In Page](.utils//public/images/Web%20capture_23-12-2022_15414_localhost.jpeg)
-  [Hemlock Fitness User Dashboard](.utils//public/images/readme/hemlock-user-dashboard.png)
-  [Hemlock Fitness User Schedule](.utils//public/images/readme/hemlock-my-schedule.png)
-
+  [Hemlock Fitness Home Page](./public/images/readme/hemlock-home.png)
+  [Hemlock Fitness Log In Page](./public/images/Web%20capture_23-12-2022_15414_localhost.jpeg)
+  [Hemlock Fitness User Dashboard](./public/images/readme/hemlock-user-dashboard.png)
+  [Hemlock Fitness User Schedule](./public/images/readme/hemlock-my-schedule.png)
 
   ## License
   <!-- adding which license the application is covered under from user entered input data -->
