@@ -1,5 +1,5 @@
 // packages required
-const { writeFile } = require('fs');
+const fs = require('fs');
 
 // function declaration to generate markdown for README
 function generateMarkdown(data) {
@@ -68,7 +68,7 @@ function generateMarkdown(data) {
 
   `;
   // function call to write to the file 
-  writeFile("./README2.md", readme, (err) => {
+  fs.writeFile("./README2.md", readme, (err) => {
     if (err) return console.error(err);
     console.log("Success!");
 });
