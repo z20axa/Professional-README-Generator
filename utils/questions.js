@@ -1,33 +1,33 @@
-// TODO: Create an array of questions for user input
+// array of questions to ask for user input
 const questions = [
     {
         type: "input",
-        message: "What's your project title",
+        message: "What's your project title?",
         name: "projectTitle"
     },
     {
         type: "input",
-        message: "What is your project description",
+        message: "What is your project description?",
         name: "projectDescription"
     },
     {
         type: "input",
-        message: "What are your project installation instructions",
+        message: "What are your project installation instructions?",
         name: "projectInstallation"
     },
     {
         type: "input",
-        message: "What is your project usage information",
+        message: "What is your project usage information?",
         name: "projectUsage"
     },
     {
         type: "input",
-        message: "What are your project contributions guidelines",
+        message: "What are your project contributions guidelines?",
         name: "projectContributions"
     },
     {
         type: "input",
-        message: "What are your project test instructions",
+        message: "What are your project test instructions?",
         name: "projectInstructions"
     },
     {
@@ -38,12 +38,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is your GitHub username",
+        message: "What is your GitHub username?",
         name: "githubUserName"
     },
     {
         type: "input",
-        message: "What is your email address",
+        message: "What is your email address?",
         name: "userEmail"
     }
 ];
