@@ -63,7 +63,7 @@ function generateMarkdown(data) {
   // function call to write to the file 
   fs.writeFile("./README_generated.md", readme, (err) => {
     if (err) return console.error(err);
-    console.log("Success generated a markdown README!!!");
+    console.log("Successfully generated a markdown README from entered user input data!!!");
 });
 }
 
