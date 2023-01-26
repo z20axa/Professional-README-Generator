@@ -35,8 +35,8 @@ function generateMarkdown(data) {
   App Screen Shots
   ![Hemlock Fitness Home Page](./utils/public/images/hemlock-home.png)
   ![Hemlock Fitness Log In Page](./utils/public/images/Web%20capture_23-12-2022_15414_localhost.jpeg)
-  ![Hemlock Fitness User Dashboard](./utils/public/images/readme/hemlock-user-dashboard.png)
-  ![Hemlock Fitness User Schedule](./utils/public/images/readme/hemlock-my-schedule.png)
+  ![Hemlock Fitness User Dashboard](./utils/public/images/hemlock-user-dashboard.png)
+  ![Hemlock Fitness User Schedule](./utils/public/images/hemlock-my-schedule.png)
 
   ## License
   <!-- adding which license the application is covered under from user entered input data -->
@@ -63,7 +63,7 @@ function generateMarkdown(data) {
   // function call to write to the file 
   fs.writeFile("./README_generated.md", readme, (err) => {
     if (err) return console.error(err);
-    console.log("Successfully generated a markdown README from entered user input data!!!");
+    console.log("Successfully generated a markdown README from the entered user input data!!!");
 });
 }
 
