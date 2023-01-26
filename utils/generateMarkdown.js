@@ -1,3 +1,4 @@
+// packages required
 const { writeFile } = require('fs');
 
 // TODO: Create a function that returns the license link
@@ -15,6 +16,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let readme = `# ${data.projectTitle}
+  <!-- adding license badge near the top of the README -->
+  <!-- condition to check for the project license to display the license badge, if not license, then return an empty string -->
   ${data.projectLicense == "None" ? "" : `![License Badge](https://img.shields.io/badge/License-${data.projectLicense}-blue)`}
 
 
