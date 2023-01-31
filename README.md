@@ -36,6 +36,8 @@ THEN I am taken to the corresponding section of the README
 
 - [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
+- [File System 'fs' package](https://node.readthedocs.io/en/latest/api/fs/)
+
 - [Node.js](https://nodejs.org/en/)
 
 ## Walkthrough Video Link
