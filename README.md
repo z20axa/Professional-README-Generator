@@ -35,7 +35,8 @@ THEN I am taken to the corresponding section of the README
 ## Technologies Used
 
 - [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- Node.js 
+
+- [Node.js](https://nodejs.org/en/)
 
 ## Walkthrough Video Link
 
