@@ -37,11 +37,11 @@ THEN I am taken to the corresponding section of the README
 - Inquirer Package
 - Node.js 
 
-### Walkthrough Video Link
+## Walkthrough Video Link
 
 - Please follow [THIS LINK!](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
-### App Screenshots 
+## App Screenshots 
 
 ![Capture1](./utils/public/images/Capture1.PNG)
 ![Capture2](./utils/public/images/Capture2.PNG)
