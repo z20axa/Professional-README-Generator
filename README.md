@@ -43,10 +43,13 @@ THEN I am taken to the corresponding section of the README
 
 ### App Screenshots 
 
-![Hemlock Fitness Home Page](./utils/public/images/hemlock-home.png)
-![Hemlock Fitness Log In Page](./utils/public/images/Web%20capture_23-12-2022_15414_localhost.jpeg)
-![Hemlock Fitness User Dashboard](./utils/public/images/hemlock-user-dashboard.png)
-![Hemlock Fitness User Schedule](./utils/public/images/hemlock-my-schedule.png)
+![Capture1](./utils/public/images/Capture1.PNG)
+![Capture2](./utils/public/images/Capture2.PNG)
+![Capture3](./utils/public/images/Capture3.PNG)
+![Capture4](./utils/public/images/Capture4.PNG)
+![Capture5](./utils/public/images/Capture5.PNG)
+![Capture6](./utils/public/images/Capture6.PNG)
+![Capture7](./utils/public/images/Capture7.PNG)
 
 
 
