@@ -2,7 +2,7 @@
 
 ## App description
 
-- This is an app using a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). 
+- This is an app using a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
 ## User Story
 
@@ -34,7 +34,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Technologies Used
 
-- Inquirer Package
+- [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 - Node.js 
 
 ## Walkthrough Video Link
