@@ -1,4 +1,4 @@
-# Professional-README-Generator
+# Professional-README-Generator (Node.js)
 
 ## App description
 
