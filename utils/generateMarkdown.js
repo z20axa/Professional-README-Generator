@@ -3,6 +3,7 @@ const fs = require('fs');
 
 // function declaration to generate markdown for README
 function generateMarkdown(data) {
+  // variable declaration 
   let readme = `
   <!-- adding project tittle from user entered input data -->
   # ${data.projectTitle}
@@ -42,7 +43,6 @@ function generateMarkdown(data) {
   <!-- adding which license the application is covered under from user entered input data -->
   <!-- condition to check for the project license to display the license coverage, if not license, then project no coveraged under any license -->
   ${data.projectLicense == "None" ? "Application covered under NO license" : `Application covered under the ${data.projectLicense} license.`}
-  
   
   ## Contributing
   <!-- adding project contributions from user entered input data -->
