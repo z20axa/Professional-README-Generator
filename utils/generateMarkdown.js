@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // function declaration to generate markdown for README
 function generateMarkdown(data) {
-  // variable declaration 
+  // variable declaration to create readme 
   let readme = `
   <!-- adding project tittle from user entered input data -->
   # ${data.projectTitle}
