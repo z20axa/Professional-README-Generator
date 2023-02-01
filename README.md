@@ -42,7 +42,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video Link
 
-- Please follow [THIS LINK!](https://www.npmjs.com/package/inquirer/v/8.2.4)
+- Please follow [THIS LINK!](https://drive.google.com/file/d/1BRLcbLIIPspX_B1cVO1bgb25c-X-gjPc/view)
 
 ## App Screenshots 
 
